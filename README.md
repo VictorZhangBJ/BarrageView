@@ -4,8 +4,8 @@
 最后打开弹幕，`openBarrage`
 
 ```
- self.barrageView = [[BarrageView alloc]initWithFrame:self.view.bounds];
+    self.barrageView = [[BarrageView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:_barrageView];
     self.barrageView.commentArray = [NSMutableArray arrayWithObjects:@"关弹幕 保智商",@"我不服",@"我的鱼丸呢我擦",     @"摄像头挡住了",@"23333333333", nil];
-  [self.barrageView openBarrage];
+    [self.barrageView openBarrage];
 ```
